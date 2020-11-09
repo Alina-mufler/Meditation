@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+}
+
+header {
+
+    background-image: url("../additional/yoga.jpg");
+    height: 250px;
+    margin: 0;
+    width: 100%;
+}
+.heading {
+    text-align: center;
+    position: relative;
+    font-family: "Times New Roman", serif;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 75px;
+}
+#heading{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-family: "Times New Roman", serif;
+    font-weight: 500;
+    font-style: initial;
+    font-size: 75px;
+}
+.menu{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: #857867;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+}
+footer nav{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+}
+.login{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+
+}
+#buttonLogin{
+    outline: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+#buttonProfile{
+    outline: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.buttonLogin{
+    text-align: center;
+    background:#92BDAA ;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.loginForm{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 5%;
+    top: 20px;
+    width: 300px;
+    height: 500px;
+    color: #FFFFFF;
+    background-color: transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.signUpForm{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 5%;
+    top: 20px;
+    width: 300px;
+    height: 500px;
+    color: #FFFFFF;
+    background-color: transparent;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.signIn{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10%;
+    margin: 15% auto 15% auto;
+    border: 1px solid #888;
+    width:100%;
+}
+.signUp{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10%;
+    margin: 15% auto 15% auto;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+.container {
+    padding: 20px;
+}
+
+span.password {
+    float: right;
+    padding-top: 16px;
+}
+
+input[type=text], input[type=password], input[type=passwordRepeat] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #D9C9B4;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .post-item {
+        flex-basis: 50%;
+        flex-shrink: 0;
+    }
+}
+@media (min-width: 960px) {
+    .post-item {
+        flex-basis: 33.333333333%;
+    }
+}
+@media screen and (max-width: 300px) {
+    span.password {
+        display: block;
+        float: none;
+    }
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+#backButton{
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+}
+.checkbox + label {
+    position: relative;
+    padding: 0 0 0 60px;
+    cursor: pointer;
+}
+.checkbox + label:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 25px;
+    height: 13px;
+    border-radius: 13px;
+    background: #CDD1DA;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+    transition: .2s;
+}
+.checkbox + label:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    transition: .2s;
+}
+.checkbox:checked + label:before {
+    background: #9FD468;
+}
+.checkbox:checked + label:after {
+    left: 13px;
+}
+.checkbox:focus + label:before {
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(255,255,0,.7);
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}

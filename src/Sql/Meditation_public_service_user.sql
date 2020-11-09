@@ -1,0 +1,6 @@
+INSERT INTO public.service_user (id, username, email, hashpassword) VALUES (1, 'Alina', 'alinok-5-2001@mail.ru', '$2a$10$KYU7AuUnSe4JY4a3VMSZ.eGFTXWAd36Oz/VdZSQaWE1bDY6STrfeu');
+INSERT INTO public.service_user (id, username, email, hashpassword) VALUES (2, 'Alina', 'alinok20015@gmail.com', '$2a$10$yF3LY3JMFhQRuTTAY0R3Rec22TFKDh64mDIbbikU88FM38X/avFju');
+INSERT INTO public.service_user (id, username, email, hashpassword) VALUES (3, 'Alina', 'alina-mufler@yandex.ru', '$2a$10$tV3Dp4uUxHG88ysK7Qf/EOgYoOFGaYr8tuCdzlbQOAYtevzUjNSO.');
+INSERT INTO public.service_user (id, username, email, hashpassword) VALUES (4, 'Alina', 'AYFedorova@stud.kpfu.ru', '$2a$10$604mj3YQ9GrVlgY0IzG9iOU0Fm7XUnx544bqwHH3iq5twdp5IZgi6');
+INSERT INTO public.service_user (id, username, email, hashpassword) VALUES (5, 'Алина', 'alina_mufler@mail.ru', '$2a$10$MKuypN8h1QXxl6cVs3bFseD7diBFmSaOrhMNjt8up60Pv5tnZmtcO');
+INSERT INTO public.service_user (id, username, email, hashpassword) VALUES (6, 'Alina', 'alinouk-5-2001@mail.ru', '$2a$10$lHF3VxzdeQs.AOmGr9fof.4cALhGy7TmIrTfq4PhjiTtHjR5/XVdq');

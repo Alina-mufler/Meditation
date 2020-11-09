@@ -1,0 +1,1 @@
+INSERT INTO public.usermusic (userid, musicid) VALUES (5, '{3}');

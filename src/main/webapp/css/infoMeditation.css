@@ -1,0 +1,31 @@
+
+.login{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+
+}
+#buttonLogin{
+    outline: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.aboutMeditation{
+    margin: 10px 200px;
+    font-family: "Times New Roman", serif;
+}
+.aboutMeditation h2{
+    font-style: initial;
+    font-weight: bold;
+    font-size: 24px;
+}
+.aboutMeditation p{
+    font-style: initial;
+    font-size: 20px;
+    line-height: normal;
+}
+.med{
+    margin: 20px 50px;
+}
